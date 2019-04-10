@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sliderimages",
+      "handler": "Sliderimage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sliderimages/count",
+      "handler": "Sliderimage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sliderimages/:_id",
+      "handler": "Sliderimage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sliderimages",
+      "handler": "Sliderimage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sliderimages/:_id",
+      "handler": "Sliderimage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sliderimages/:_id",
+      "handler": "Sliderimage.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
