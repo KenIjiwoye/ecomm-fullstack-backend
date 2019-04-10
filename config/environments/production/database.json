@@ -11,7 +11,10 @@
         "username": "ken",
         "password": "password1"
       },
-      "options": {}
+      "options": {
+        "authenticationDatabase": "strapi",
+        "ssl": false
+      }
     }
   }
 }
